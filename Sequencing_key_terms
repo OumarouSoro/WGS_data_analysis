@@ -1,0 +1,31 @@
+#Phred score
+
+In FASTQ files, quality scores are commonly calculated using the Phred scale.
+The Phred score is a logarithmic measure of the probability that a base (nucleotide) in a DNA sequence is called incorrectly.
+It is expressed as a quality score (Q) and is calculated using the formula:
+
+Q = -10 * log10 (P)
+
+Where:
+
+Q is the Phred quality score.
+
+P is the estimated probability that the base is incorrect.
+
+In other words, a higher Phred score indicates a higher probability of the base being called correctly, while a lower Phred score indicates 
+a higher probability of an error in base calling. For example, a Phred score of 20 corresponds to a 1% chance of error, while a Phred score of 30 has 
+a 0.1% chance of being an error.
+
+#N50/N90
+
+N50 is a measure used to describe the quality of assembled genomes that are fragmented into contigs of different lengths. It is the minimum contig length 
+required to cover 50 percent of the assembled genome sequence.
+N10 is the minimum contig length to cover 10 percent of the genome.
+N90 is the minimum contig length to cover 90 percent of the genome.
+
+# Coverage
+It represents the number of times a specific DNA sequence has been read in a sequencing experiment.
+
+#
+
+
